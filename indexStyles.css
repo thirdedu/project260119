@@ -1,0 +1,44 @@
+/* 전체 화면 기본 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #0b1c2d; /* 어두운 파란색 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 중앙 컨테이너 */
+#app {
+  text-align: center;
+}
+
+/* 버튼 스타일 */
+#danger-button {
+  background-color: #123a63;
+  color: #e6f1ff;
+  border: none;
+  padding: 24px 48px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* hover 효과 */
+#danger-button:hover {
+  background-color: #1b4f8a;
+  transform: scale(1.05);
+}
+
+/* 클릭 시 눌리는 느낌 */
+#danger-button:active {
+  transform: scale(0.98);
+}
